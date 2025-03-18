@@ -1,0 +1,45 @@
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #facf51;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Londrina+Solid:wght@300;400;900&display=swap');
+
+@font-face {
+    font-family: Baskervville;
+    src: url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Londrina+Solid:wght@300;400;900&display=swap');
+}
+.txt{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.adt{
+margin-top: 50%;
+
+
+
+}
+.frasetela3{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 40px;
+    
+
+}
+
+.btaotela3 {
+    text-align: center;
+    border-bottom: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 50px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 30px;
+    background-color: #f1da93;
+    box-shadow: 20px;
+}
