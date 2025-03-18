@@ -1,0 +1,46 @@
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-title {
+  margin-left: 15px;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 6.5rem;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 900;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  font-family: 'Baskervville', serif;
+  max-width: 50%;
+}
+
+.donate-div {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.img-donate {
+  width: 240px;
+}
+
+.description-donate {
+  max-width: 50%;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.img-end {
+  width: 100dvw;
+  border-bottom: 1px solid black;
+}
