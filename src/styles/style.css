@@ -1,6 +1,10 @@
-/* Import das fontes */
-
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Londrina+Solid:wght@300;400;900&display=swap');
+
+:root {
+  --primary-color: #ffd049;
+}
+
+/* Import das fontes */
 
 h1,
 h2,
@@ -10,8 +14,29 @@ h5,
 h6 {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-size: 1rem;
+  font-family: 'Londrina Solid', sans-serif !important;
+  font-weight: 900;
+  font-style: normal;
+}
+
+button {
+  padding: 0;
+  box-shadow: 0 0 0 0;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,9 +44,21 @@ body {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   background-color: rgb(235, 239, 243);
+  overflow-x: hidden;
 }
 
 .section {
   width: 100dvw;
-  height: 100dvh;
+  /* min-height: 100dvh; */
+  overflow: hidden;
+}
+
+.btn {
+  background: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 19px;
 }

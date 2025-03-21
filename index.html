@@ -3,6 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Lar Felino - Ajude gatinhos a encontrarem um lar amoroso. Adote, doe ou apoie nossa causa para transformar vidas felinas!"
+    />
+    <meta
+      name="keywords"
+      content="adoção de gatos, gatos para adoção, doação de gatos, ajudar animais, gatos abandonados, lar temporário para gatos, colinas, colinas do tocantins, tocantins"
+    />
+    <meta name="author" content="Lar Felino" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Lar Felino - Ajude Gatinhos" />
+    <meta
+      property="og:description"
+      content="Doe, adote e transforme a vida de gatos que precisam de um lar seguro e amoroso."
+    />
+    <meta
+      property="og:image"
+      content="https://larfelino.org/src/assets/logo.png"
+    />
+    <meta property="og:url" content="https://larfelino.org/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lar Felino - Ajude Gatinhos" />
+    <meta
+      name="twitter:description"
+      content="Doe, adote e transforme a vida de gatos que precisam de um lar seguro e amoroso."
+    />
+    <meta
+      name="twitter:image"
+      content="https://larfelino.org/src/assets/logo.png"
+    />
+
     <link rel="stylesheet" href="./src/styles/style.css" />
     <link rel="stylesheet" href="./src/styles/navbar.css" />
     <link rel="stylesheet" href="./src/styles/section-1.css" />
@@ -10,19 +43,28 @@
     <link rel="stylesheet" href="./src/styles/section-3.css" />
     <link rel="stylesheet" href="./src/styles/section-4.css" />
     <link rel="stylesheet" href="./src/styles/section-5.css" />
+    <link rel="stylesheet" href="./src/styles/footer.css" />
 
-    <title>Site dos Gatos</title>
+    <link rel="icon" href="./src/assets/favicon.ico" type="image/x-icon" />
+    <title>Lar Felino</title>
   </head>
   <body>
     <nav>
       <img src="./src/assets/logo.png" alt="logo" />
-      <div className="burger-div" onclick="toggleBurgerMenu(this)">
+      <div class="burger-div" onclick="toggleBurgerMenu(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
+      <div class="menu menu-hide menu-hide-animation">
+        <a class="mobile-link mobile-link-hide" href="#home">HOME</a>
+        <a class="mobile-link mobile-link-hide" href="#sobre">SOBRE</a>
+        <a class="mobile-link mobile-link-hide" href="#adote">ADOTE</a>
+        <a class="mobile-link mobile-link-hide" href="#doação">DOAÇÃO</a>
+        <a class="mobile-link mobile-link-hide" href="#contatos">CONTATOS</a>
+      </div>
     </nav>
-    <section class="section" id="section-1">
+    <section class="section" id="home">
       <div class="div-title">
         <h1 class="title">Lar Felino</h1>
         <h3 class="description">
@@ -32,11 +74,11 @@
         </h3>
       </div>
       <div class="donate-div">
-        <a href="">
+        <a href="#doação">
           <img
             class="img-donate"
             src="./src/assets/donate-button.png"
-            alt="button-donate"
+            alt="button donate"
           />
         </a>
         <p class="description-donate">
@@ -44,55 +86,179 @@
           nossos peludinhos!
         </p>
       </div>
-      <img class="img-end" src="./src/assets/hero-section-cats.png" alt="" />
-    </section>
-    <section class="section" id="section-2"></section>
-    <section class="section" id="section-3">
-
-      <!-- <h1 class="txt"><strong>ADOTE UM GATO</strong></h1>
-      <p class="frasetela3">Além de ajudar um gatinho a ter um lar, adotar é uma experiência incrível! Eles são fofos, cheios de personalidade e ótimos companheiros para o dia a dia. Quer ganhar um amigo de quatro patas? Entre em contato e saiba como adotar!</p>
-      <button class="btaotela3"><strong>contate-nos</strong></button>
-      <img class="adt" src="./src/assets/adorable-kitty-with-monochrome-wall-her 1.png">
-       -->
+      <img
+        class="img-end"
+        src="./src/assets/hero-section-cats.png"
+        alt="cat img"
+      />
     </section>
 
-
-
-    <section class="section" id="section-4">
-      <div class="container">
-        <h1>QUERO APOIAR</h1>
-        <p>Apoiar nosso projeto é ajudar a transformar a vida de gatinhos que precisam de cuidados, carinho e um lar...</p>
-        <div class="qr-code">qr code</div>
-        <button class="btn">Copiar chave pix</button>
-          <div class="contact">
-            <p>ou apoie-nos de outra forma</p>
-            <button class="btn">contate-nos</button>
-          </div>
-        <img src="https://placekitten.com/400/200" alt="Gatinho" class="cat-img">
+    <section class="section" id="sobre">
+      <div class="carousel">
+        <div class="carousel-container">
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+          <img
+            class="carousel-img"
+            src="./src/assets/image-section-4.png"
+            alt=""
+          />
+        </div>
+        <img id="prev" src="./src/assets/arrow.png" alt="arrow" />
+        <img id="next" class="flip" src="./src/assets/arrow.png" alt="arrow" />
       </div>
+
+      <div class="about">
+        <h2>Sobre o Projeto</h2>
+        <p>
+          Esse projeto nasceu do amor pelos gatinhos e da vontade de fazer a
+          diferença na vida desses pequenos felinos. Atualmente, cuidamos de
+          vários gatos em um lar temporário, oferecendo abrigo, alimentação,
+          carinho e cuidados veterinários. Nosso objetivo é transformar essa
+          iniciativa em uma ONG, ampliando nossa capacidade de resgate, proteção
+          e adoção responsável.
+        </p>
+      </div>
+      <img
+        class="image-section-2"
+        src="./src/assets/image-section-2.png"
+        alt="cat img"
+      />
+    </section>
+    <section class="section" id="adote">
+      <div>
+        <h2>ADOTE UM GATO</h2>
+        <p>
+          Além de ajudar um gatinho a ter um lar, adotar é uma experiência
+          incrível! Eles são fofos, cheios de personalidade e ótimos
+          companheiros para o dia a dia.🐾 Quer ganhar um amigo de quatro patas?
+          Entre em contato e saiba como adotar!
+        </p>
+        <a href="#contatos"><button class="btn">contate-nos</button></a>
+      </div>
+      <img src="./src/assets/image-section-3.png" alt="cat img" />
     </section>
 
-    <section class="section" id="section-5">
-      <div class="container">
-        <h1>NOSSO CONTATOS</h1>
-        <h2>& redes sociais</h2>
-        <div class="social-buttons">
-            <button>test</button>
-            <button>test</button>
-            <button>test</button>
-            <button>test</button>
-        </div>
-        <div class="contact-info">
-            <div>emailtest123@gmail.com</div>
-            <div>(63) 0 1234-4567</div>
-        </div>
-        <div class="footer">
-            <p>endereço - cidade</p>
-        </div>
-        <img src="https://placekitten.com/400/200" alt="Gatinho" class="cat-img">
-    </div>
+    <section class="section" id="doação">
+      <div>
+        <h2>QUERO APOIAR</h2>
+        <p>
+          Apoiar nosso projeto é ajudar a transformar a vida de gatinhos que
+          precisam de cuidados, carinho e um lar. Todo o valor arrecadado é
+          utilizado diretamente para o bem-estar dos gatos, incluindo ração de
+          qualidade, vacinas, medicamentos, castrações e outros cuidados
+          essenciais.
+        </p>
+      </div>
+      <div class="pix-infos">
+        <img src="./src/assets/qr-code.png" alt="qr-code" />
+      </div>
+      <p class="title-pix-key">Chave Pix:</p>
+
+      <div class="div-pix-key">
+        <p class="pix-key">(63) 91781-8383</p>
+        <img class="icon-copy" src="./src/assets/copy.png" alt="icon copy" />
+      </div>
+      <div class="div-help">
+        <h2 class="title-help">
+          Não pode ajudar financeiramente? <br />
+          Sem problemas!
+        </h2>
+        <p>
+          Você também pode apoiar doando ração, areia, cobertores, medicamentos
+          ou outros itens que fazem a diferença no dia a dia dos nossos
+          gatinhos. Toda ajuda é bem-vinda! Entre em contato e saiba como
+          contribuir.
+        </p>
+        <a class="btn btn-help" href="#contatos">
+          <button>Contate-nos</button>
+        </a>
+      </div>
+      <img src="./src/assets/image-section-4.png" alt="cat image" />
     </section>
+    <section class="section" id="contatos">
+      <div class="titles-section-5">
+        <h2>NOSSOS CONTATOS</h2>
+        <h2>& Redes Sociais</h2>
+      </div>
+      <div class="contacts-socials">
+        <div class="socials">
+          <div class="social-media">T_T</div>
+          <div class="social-media">T_T</div>
+          <div class="social-media">T_T</div>
+          <div class="social-media">T_T</div>
+        </div>
+        <div class="contact">emailteste@gmail.com</div>
+        <div class="contact">(63) 91828-9192</div>
+      </div>
+      <div class="div-address">
+        <p class="addrress">Endereco Cidade</p>
+        <p class="addrress">Endereco Cidade etc Endereco Cidade etc</p>
+      </div>
+      <img
+        class="img-5"
+        src="./src/assets/image-section-5.png"
+        alt="cat image"
+      />
+    </section>
+    <footer>
+      <div class="footer-title">
+        <h2>Lar Felino</h2>
+        <p>
+          &copy; 2025 Lar Felino. Algumas imagens são de nossa autoria, enquanto
+          outras foram retiradas da internet. Caso alguma imagem seja sua e
+          precise de crédito ou remoção, entre em contato.
+        </p>
+      </div>
+      <div class="footer-devs">
+        <h2>Desenvolvedores:</h2>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/daniel-braga-cominetti-317746229/"
+          >Líder de Desenvolvimento</a
+        >
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/santiago-santos-63a73516a/"
+          >Desenvolvedor & Designer</a
+        >
+        <!-- <a target="_blank" href="">Desenvolvedor</a> -->
+      </div>
+    </footer>
     <script src="./src/scripts/script.js"></script>
-    <script src="./src/scripts/burguerMenu.js"></script>
+    <script src="./src/scripts/navbar.js"></script>
   </body>
 </html>

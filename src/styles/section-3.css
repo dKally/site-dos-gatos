@@ -1,45 +1,47 @@
-/* #section-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #facf51;
+#adote {
+  background-color: #facf51;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Londrina+Solid:wght@300;400;900&display=swap');
-
-@font-face {
-    font-family: Baskervville;
-    src: url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Londrina+Solid:wght@300;400;900&display=swap');
-}
-.txt{
-    text-align: center;
-    font-size: 45px;
-    margin-top: 50px;
+#adote div h2 {
+  font-size: 3.8rem;
+  font-family: 'Londrina Solid', sans-serif;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-.adt{
-margin-top: 50%;
-
-
-
-}
-.frasetela3{
-    text-align: center;
-    font-size: 20px;
-    margin: 50px;
-    margin-top: 40px;
-    
-
+#adote div p {
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-family: 'Baskervville', serif;
 }
 
-.btaotela3 {
-    text-align: center;
-    border-bottom: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    margin: 50px;
-    border-radius: 30px;
-    padding: 30px;
-    font-size: 30px;
-    background-color: #f1da93;
-    box-shadow: 20px;
-} */
+#adote button {
+  font-size: 2rem;
+  background: #f2db9a;
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+#adote div {
+  text-align: center;
+}
+
+#adote a {
+  display: inline-block;
+}
+
+#adote img {
+  height: 440px;
+  width: 460px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
