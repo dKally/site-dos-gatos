@@ -32,9 +32,15 @@
 
 .socials {
   margin-bottom: 10px;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 10px; */
+}
+.socials p {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .social-media {

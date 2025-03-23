@@ -11,7 +11,7 @@ footer {
   max-width: 50%;
 }
 
-.footer-title h1 {
+.footer-title h2 {
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
@@ -26,7 +26,7 @@ footer {
   flex-direction: column;
 }
 
-.footer-devs h1 {
+.footer-devs h2 {
   font-size: 1.3rem;
   margin-bottom: 10px;
 }

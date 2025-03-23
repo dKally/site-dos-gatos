@@ -49,3 +49,17 @@ window.addEventListener('scroll', () => {
     ticking = true;
   }
 });
+
+function copyKey() {
+  const keyElement = document.getElementById('pixKey');
+  const keyText = '63991023653';
+
+  navigator.clipboard
+    .writeText(keyText)
+    .then(() => {
+      console.log('chave copiada');
+    })
+    .catch((err) => {
+      console.error('Erro ao copiar: ', err);
+    });
+}

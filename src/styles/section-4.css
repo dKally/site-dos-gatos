@@ -33,6 +33,14 @@
   font-weight: 800;
 }
 
+.qr-code {
+  width: 80%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .div-pix-key {
   display: flex;
   border: 1px solid #000;
@@ -41,6 +49,7 @@
   justify-content: center;
   gap: 15px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .pix-key {
